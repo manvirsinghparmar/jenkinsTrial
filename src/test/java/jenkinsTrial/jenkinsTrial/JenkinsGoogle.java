@@ -34,7 +34,7 @@ public class JenkinsGoogle {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	void googleTitle() {
 		
 		System.out.println("Trial");
@@ -45,8 +45,10 @@ public class JenkinsGoogle {
 
 	}
 
-	@Test
+	@Test(priority = 2)
 	void searchInput() {
+		
+		System.out.println("This is a comment");
 
 		WebElement searchBox = driver.findElement(By.xpath("//input[@title='Search']"));
 
