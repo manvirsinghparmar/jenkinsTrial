@@ -36,6 +36,8 @@ public class JenkinsGoogle {
 
 	@Test
 	void googleTitle() {
+		
+		System.out.println("Trial");
 
 		String titleOfPage = driver.getTitle();
 
