@@ -63,6 +63,14 @@ public class JenkinsGoogle {
 		searchButton.click();
 
 	}
+	
+	
+	@Test		
+	void printing() {
+		
+		System.out.println("This is new test");
+		
+	}
 
 	@AfterMethod
 	void tearDown() {
